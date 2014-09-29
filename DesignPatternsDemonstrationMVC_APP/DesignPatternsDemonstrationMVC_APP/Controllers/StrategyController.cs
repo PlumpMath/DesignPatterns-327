@@ -13,7 +13,7 @@ namespace DesignPatternsDemonstrationMVC_APP.Controllers
         public ActionResult Index()
         {
 
-             Person person = new Person();
+            Person person = new Person();
 
             Ilunch lunch = null;
 
