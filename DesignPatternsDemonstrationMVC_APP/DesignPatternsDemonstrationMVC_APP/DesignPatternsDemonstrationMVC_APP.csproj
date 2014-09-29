@@ -97,12 +97,14 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\FactoryMethodController.cs" />
     <Compile Include="Controllers\PrototypeController.cs" />
+    <Compile Include="Controllers\SingltonController.cs" />
     <Compile Include="Controllers\StrategyController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="pattern_classes\FactoryMethod\FactoryMethod.cs" />
     <Compile Include="pattern_classes\PrototypePattern\PrototypePattern.cs" />
+    <Compile Include="pattern_classes\SingltonPattern\SingltonPattern.cs" />
     <Compile Include="pattern_classes\strategy\StrategyPattern.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -118,6 +120,7 @@
     <Content Include="Scripts\jquery-1.10.2.min.map" />
     <Content Include="Views\FactoryMethod\Index.cshtml" />
     <Content Include="Views\Prototype\Index.cshtml" />
+    <Content Include="Views\Singlton\Index.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
