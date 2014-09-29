@@ -96,6 +96,7 @@
   <ItemGroup>
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\FactoryMethodController.cs" />
+    <Compile Include="Controllers\ObserverController.cs" />
     <Compile Include="Controllers\PrototypeController.cs" />
     <Compile Include="Controllers\SingltonController.cs" />
     <Compile Include="Controllers\StrategyController.cs" />
@@ -103,6 +104,7 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="pattern_classes\FactoryMethod\FactoryMethod.cs" />
+    <Compile Include="pattern_classes\ObserverPattern\ObserverPattern.cs" />
     <Compile Include="pattern_classes\PrototypePattern\PrototypePattern.cs" />
     <Compile Include="pattern_classes\SingltonPattern\SingltonPattern.cs" />
     <Compile Include="pattern_classes\strategy\StrategyPattern.cs" />
@@ -121,6 +123,7 @@
     <Content Include="Views\FactoryMethod\Index.cshtml" />
     <Content Include="Views\Prototype\Index.cshtml" />
     <Content Include="Views\Singlton\Index.cshtml" />
+    <Content Include="Views\Observer\Index.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
