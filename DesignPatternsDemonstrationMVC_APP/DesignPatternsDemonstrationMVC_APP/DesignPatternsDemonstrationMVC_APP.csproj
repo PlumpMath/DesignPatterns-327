@@ -95,6 +95,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\AdapterController.cs" />
     <Compile Include="Controllers\DecorationController.cs" />
     <Compile Include="Controllers\FacadeController.cs" />
     <Compile Include="Controllers\FactoryMethodController.cs" />
@@ -105,6 +106,8 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="pattern_classes\AdapterPattern\adaptee\ArrayCollectionAdaptee.cs" />
+    <Compile Include="pattern_classes\AdapterPattern\adapter\ConverterAdapter.cs" />
     <Compile Include="pattern_classes\DecorationPatt\Component\Pancake.cs" />
     <Compile Include="pattern_classes\DecorationPatt\ConcreteComponent\DesertPanCake.cs" />
     <Compile Include="pattern_classes\DecorationPatt\ConcreteComponent\LunchPanCake.cs" />
@@ -152,6 +155,7 @@
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Models\" />
+    <Folder Include="Views\Adapter\" />
     <Folder Include="Views\Facade\" />
   </ItemGroup>
   <PropertyGroup>
