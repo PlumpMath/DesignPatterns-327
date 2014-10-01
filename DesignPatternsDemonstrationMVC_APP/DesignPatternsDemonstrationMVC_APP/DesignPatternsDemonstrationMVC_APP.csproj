@@ -95,6 +95,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\DecorationController.cs" />
     <Compile Include="Controllers\FactoryMethodController.cs" />
     <Compile Include="Controllers\ObserverController.cs" />
     <Compile Include="Controllers\PrototypeController.cs" />
@@ -103,6 +104,16 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="pattern_classes\DecorationPatt\Component\Pancake.cs" />
+    <Compile Include="pattern_classes\DecorationPatt\ConcreteComponent\DesertPanCake.cs" />
+    <Compile Include="pattern_classes\DecorationPatt\ConcreteComponent\LunchPanCake.cs" />
+    <Compile Include="pattern_classes\DecorationPatt\ConcreteDecoratorA\Caramel.cs" />
+    <Compile Include="pattern_classes\DecorationPatt\ConcreteDecoratorA\CherryCream .cs" />
+    <Compile Include="pattern_classes\DecorationPatt\ConcreteDecoratorA\StrawberryCream.cs" />
+    <Compile Include="pattern_classes\DecorationPatt\ConcreteDecoratorB\Ketchup.cs" />
+    <Compile Include="pattern_classes\DecorationPatt\ConcreteDecoratorB\Onion.cs" />
+    <Compile Include="pattern_classes\DecorationPatt\Decorator\Extras.cs" />
+    <Compile Include="pattern_classes\DecorationPatt\Decorator\Toping.cs" />
     <Compile Include="pattern_classes\FactoryMethod\FactoryMethod.cs" />
     <Compile Include="pattern_classes\ObserverPattern\ObserverPattern.cs" />
     <Compile Include="pattern_classes\PrototypePattern\PrototypePattern.cs" />
@@ -124,6 +135,7 @@
     <Content Include="Views\Prototype\Index.cshtml" />
     <Content Include="Views\Singlton\Index.cshtml" />
     <Content Include="Views\Observer\Index.cshtml" />
+    <Content Include="Views\Decoration\Index.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
