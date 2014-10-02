@@ -95,6 +95,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\AbastractFactoryController.cs" />
     <Compile Include="Controllers\AdapterController.cs" />
     <Compile Include="Controllers\CommandController.cs" />
     <Compile Include="Controllers\DecorationController.cs" />
@@ -108,6 +109,16 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="pattern_classes\AbstractFactoryPattern\AbastractFactory\BookFactory.cs" />
+    <Compile Include="pattern_classes\AbstractFactoryPattern\AbastractProduct\MySqlBook.cs" />
+    <Compile Include="pattern_classes\AbstractFactoryPattern\AbastractProduct\PhpBook.cs" />
+    <Compile Include="pattern_classes\AbstractFactoryPattern\book\Book.cs" />
+    <Compile Include="pattern_classes\AbstractFactoryPattern\ConcreteFactory\OreillyBookFactory.cs" />
+    <Compile Include="pattern_classes\AbstractFactoryPattern\ConcreteFactory\SamsBookFactory.cs" />
+    <Compile Include="pattern_classes\AbstractFactoryPattern\ConcreteProduct\OReillyMySqlBook.cs" />
+    <Compile Include="pattern_classes\AbstractFactoryPattern\ConcreteProduct\OReillyPhpBook.cs" />
+    <Compile Include="pattern_classes\AbstractFactoryPattern\ConcreteProduct\SamsMySqlBook.cs" />
+    <Compile Include="pattern_classes\AbstractFactoryPattern\ConcreteProduct\SamsPhpBook.cs" />
     <Compile Include="pattern_classes\AdapterPattern\adaptee\ArrayCollectionAdaptee.cs" />
     <Compile Include="pattern_classes\AdapterPattern\adapter\ConverterAdapter.cs" />
     <Compile Include="pattern_classes\CommandP\AbastractComand\ICommand.cs" />
@@ -160,6 +171,7 @@
     <Content Include="Views\Observer\Index.cshtml" />
     <Content Include="Views\Decoration\Index.cshtml" />
     <Content Include="Views\Template\Index.cshtml" />
+    <Content Include="Views\AbastractFactory\Index.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
