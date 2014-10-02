@@ -14,9 +14,7 @@ namespace DesignPatternsDemonstrationMVC_APP.Controllers
     {
         // GET: Decoration
         public ActionResult Index()
-        {
-
-            
+        {  
             Pancake pancake = new DesertPanCake();
 
             pancake = new CherryCream(pancake);
@@ -28,9 +26,6 @@ namespace DesignPatternsDemonstrationMVC_APP.Controllers
             pancake2 = new Onion(pancake2);
 
             var cost3 = pancake2.Cost();
-
-
-            
             return View();
         }
     }

@@ -96,6 +96,7 @@
   <ItemGroup>
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\AdapterController.cs" />
+    <Compile Include="Controllers\CommandController.cs" />
     <Compile Include="Controllers\DecorationController.cs" />
     <Compile Include="Controllers\FacadeController.cs" />
     <Compile Include="Controllers\FactoryMethodController.cs" />
@@ -109,6 +110,15 @@
     </Compile>
     <Compile Include="pattern_classes\AdapterPattern\adaptee\ArrayCollectionAdaptee.cs" />
     <Compile Include="pattern_classes\AdapterPattern\adapter\ConverterAdapter.cs" />
+    <Compile Include="pattern_classes\CommandP\AbastractComand\ICommand.cs" />
+    <Compile Include="pattern_classes\CommandP\ConcreteCommand\CloseGate.cs" />
+    <Compile Include="pattern_classes\CommandP\ConcreteCommand\CloseWindow.cs" />
+    <Compile Include="pattern_classes\CommandP\ConcreteCommand\OpenGatecs.cs" />
+    <Compile Include="pattern_classes\CommandP\ConcreteCommand\OpenHalfWindow.cs" />
+    <Compile Include="pattern_classes\CommandP\ConcreteCommand\OpenWindow.cs" />
+    <Compile Include="pattern_classes\CommandP\Invoker\Remote.cs" />
+    <Compile Include="pattern_classes\CommandP\Reciver\Gate.cs" />
+    <Compile Include="pattern_classes\CommandP\Reciver\Window.cs" />
     <Compile Include="pattern_classes\DecorationPatt\Component\Pancake.cs" />
     <Compile Include="pattern_classes\DecorationPatt\ConcreteComponent\DesertPanCake.cs" />
     <Compile Include="pattern_classes\DecorationPatt\ConcreteComponent\LunchPanCake.cs" />
@@ -161,6 +171,7 @@
     <Folder Include="App_Data\" />
     <Folder Include="Models\" />
     <Folder Include="Views\Adapter\" />
+    <Folder Include="Views\Command\" />
     <Folder Include="Views\Facade\" />
   </ItemGroup>
   <PropertyGroup>
