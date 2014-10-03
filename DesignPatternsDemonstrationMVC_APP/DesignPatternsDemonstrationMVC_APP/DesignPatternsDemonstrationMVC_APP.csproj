@@ -97,6 +97,7 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\AbastractFactoryController.cs" />
     <Compile Include="Controllers\AdapterController.cs" />
+    <Compile Include="Controllers\BuildController.cs" />
     <Compile Include="Controllers\CommandController.cs" />
     <Compile Include="Controllers\DecorationController.cs" />
     <Compile Include="Controllers\FacadeController.cs" />
@@ -121,6 +122,11 @@
     <Compile Include="pattern_classes\AbstractFactoryPattern\ConcreteProduct\SamsPhpBook.cs" />
     <Compile Include="pattern_classes\AdapterPattern\adaptee\ArrayCollectionAdaptee.cs" />
     <Compile Include="pattern_classes\AdapterPattern\adapter\ConverterAdapter.cs" />
+    <Compile Include="pattern_classes\BuilderPattern\Builder\IBikeBuilder.cs" />
+    <Compile Include="pattern_classes\BuilderPattern\ConcreteBuilder\ScooterBuilder.cs" />
+    <Compile Include="pattern_classes\BuilderPattern\ConcreteBuilder\SuperMotoBuilder.cs" />
+    <Compile Include="pattern_classes\BuilderPattern\Director\Manufacturer.cs" />
+    <Compile Include="pattern_classes\BuilderPattern\Product\Bike.cs" />
     <Compile Include="pattern_classes\CommandP\AbastractComand\ICommand.cs" />
     <Compile Include="pattern_classes\CommandP\ConcreteCommand\CloseGate.cs" />
     <Compile Include="pattern_classes\CommandP\ConcreteCommand\CloseWindow.cs" />
@@ -172,6 +178,7 @@
     <Content Include="Views\Decoration\Index.cshtml" />
     <Content Include="Views\Template\Index.cshtml" />
     <Content Include="Views\AbastractFactory\Index.cshtml" />
+    <Content Include="Views\Build\Index.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
